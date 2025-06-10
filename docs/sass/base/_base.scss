@@ -1,0 +1,45 @@
+$accentLine: rgba(70, 69, 69, 0.459);
+//$accentLine: rgb(70, 69, 69);
+//$accentLine: rgb(34 34 34);
+$titleGrey: rgb(109, 109, 109);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.br--none {
+    display: none;
+}
+
+.nne {
+    display: none !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bg-light {
+    background-color: black;
+    background-image: url(./../img/image.webp);
+    //background-position: center;
+}
+.main{
+    background-color: #00000087;
+    min-height: 100vh;
+}
+.container {
+    max-width: 1500px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}

@@ -1,0 +1,40 @@
+.footer {
+    background-color: rgb(0, 0, 0);
+    padding: 70px 0 15px;
+    text-align: center;
+    color: rgb(173, 173, 173);
+    border-top: 1px solid $accentLine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 80px;
+
+    .footer__social {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 10px;
+
+    }
+
+    .footer__social-tg,
+    .footer__social-git,
+    .footer__social-vk {
+        svg, .fill--color{
+            transition: all 0.3s ease-in;
+        }
+        &:hover {
+            svg{
+                scale: 1.5;
+            }
+            .fill--color {
+               
+                fill: white;
+            }
+        }
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
